@@ -1,0 +1,10 @@
+sources:
+  - name: retail
+    database: postgres
+    schema: stg_retail
+    description: "Source data for the retail analytics project."
+    tables:
+      - name: raw_invoices
+        description: "Raw invoice data imported from the retail system."
+      - name: country
+        description: "Country reference data."

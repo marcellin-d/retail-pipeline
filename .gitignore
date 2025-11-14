@@ -1,0 +1,17 @@
+.git
+.env
+.vscode
+.idea
+.DS_Store
+airflow_settings.yaml
+__pycache__/
+astro
+.venv
+venv/
+logs/
+plugins/
+
+airflow-webserver.pid
+webserver_config.py
+airflow.cfg
+airflow.db
